@@ -1,44 +1,50 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { LogoFull } from "./Logo";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const links = [
-    { href: "#como-funciona", label: "Cómo funciona" },
-    { href: "#features", label: "Producto" },
-    { href: "#kpis", label: "KPIs" },
-    { href: "#pricing", label: "Pricing" },
-    { href: "#faq", label: "FAQ" },
+    { href: "/product", label: "Producto" },
+    { href: "/for-advisors", label: "Para Advisors" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "/security", label: "Seguridad" },
   ];
 
   return (
     <header className="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-border">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#">
+          <Link href="/">
             <LogoFull variant="dark" />
-          </a>
+          </Link>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-sm font-medium text-muted hover:text-foreground transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a
-              href="#demo"
+            <Link
+              href="/login"
+              className="text-sm font-medium text-muted hover:text-foreground transition-colors"
+            >
+              Iniciar sesión
+            </Link>
+            <Link
+              href="/#demo"
               className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white hover:bg-primary-dark transition-colors"
             >
               Solicitar demo
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -75,22 +81,29 @@ export default function Header() {
         {menuOpen && (
           <nav className="md:hidden pb-4 border-t border-border pt-4 flex flex-col gap-3">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-sm font-medium text-muted hover:text-foreground transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a
-              href="#demo"
+            <Link
+              href="/login"
+              className="text-sm font-medium text-muted hover:text-foreground transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              Iniciar sesión
+            </Link>
+            <Link
+              href="/#demo"
               className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white hover:bg-primary-dark transition-colors w-full"
               onClick={() => setMenuOpen(false)}
             >
               Solicitar demo
-            </a>
+            </Link>
           </nav>
         )}
       </div>

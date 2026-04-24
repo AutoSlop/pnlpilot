@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
   const plans = [
     {
@@ -101,8 +103,8 @@ export default function Pricing() {
                 </div>
               )}
 
-              <a
-                href="#demo"
+              <Link
+                href="/#demo"
                 className={`block w-full text-center rounded-full py-3 text-sm font-semibold transition-colors ${
                   plan.popular
                     ? "bg-primary text-white hover:bg-primary-dark"
@@ -110,7 +112,7 @@ export default function Pricing() {
                 }`}
               >
                 {plan.cta}
-              </a>
+              </Link>
 
               <ul className="mt-8 space-y-3">
                 {plan.features.map((feature) => (

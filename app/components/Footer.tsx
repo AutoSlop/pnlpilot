@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LogoFull } from "./Logo";
 
 export default function Footer() {
@@ -19,24 +20,24 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5">
               <li>
-                <a href="#features" className="text-sm hover:text-white transition-colors">
-                  Features
-                </a>
+                <Link href="/product" className="text-sm hover:text-white transition-colors">
+                  Producto
+                </Link>
               </li>
               <li>
-                <a href="#pricing" className="text-sm hover:text-white transition-colors">
+                <Link href="/pricing" className="text-sm hover:text-white transition-colors">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#como-funciona" className="text-sm hover:text-white transition-colors">
-                  Cómo funciona
-                </a>
+                <Link href="/for-advisors" className="text-sm hover:text-white transition-colors">
+                  Para Advisors
+                </Link>
               </li>
               <li>
-                <a href="#faq" className="text-sm hover:text-white transition-colors">
-                  FAQ
-                </a>
+                <Link href="/security" className="text-sm hover:text-white transition-colors">
+                  Seguridad
+                </Link>
               </li>
             </ul>
           </div>
@@ -85,6 +86,9 @@ export default function Footer() {
           <p className="text-sm">
             &copy; {new Date().getFullYear()} LedgerPilot. Todos los derechos
             reservados.
+          </p>
+          <p className="text-xs text-white/50">
+            Tu data financiera, protegida. Encryption at-rest desde día 1.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-sm hover:text-white transition-colors">

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-surface">
@@ -28,12 +30,12 @@ export default function Hero() {
               >
                 Solicitar demo
               </a>
-              <a
-                href="#como-funciona"
+              <Link
+                href="/product"
                 className="inline-flex items-center justify-center rounded-full border-2 border-border px-8 py-3.5 text-base font-semibold text-foreground hover:border-primary hover:text-primary transition-colors"
               >
                 Ver cómo funciona
-              </a>
+              </Link>
             </div>
 
             <div className="mt-12 flex flex-wrap items-center gap-6 text-sm text-muted">
