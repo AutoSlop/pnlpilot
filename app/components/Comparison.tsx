@@ -31,7 +31,7 @@ export default function Comparison() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-            ¿Por qué PnLPilot?
+            ¿Por qué LedgerPilot?
           </h2>
           <p className="mt-4 text-lg text-muted">
             Comparación honesta contra las alternativas que ya conoces.
@@ -44,7 +44,7 @@ export default function Comparison() {
               <tr className="border-b border-border">
                 <th className="text-left text-sm font-medium text-muted py-4 pr-4 w-[200px]"></th>
                 <th className="text-center text-sm font-bold text-foreground py-4 px-4">
-                  <span className="text-primary">PnLPilot</span>
+                  <span className="text-primary">LedgerPilot</span>
                 </th>
                 <th className="text-center text-sm font-medium text-muted py-4 px-4">
                   ChatGPT / Claude<br />+ Excel

@@ -1,10 +1,12 @@
+import { LogoFull } from "./Logo";
+
 export default function Footer() {
   return (
     <footer className="bg-foreground text-white/70">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="sm:col-span-2 lg:col-span-1">
-            <span className="text-xl font-bold text-white">PnLPilot</span>
+            <LogoFull variant="light" />
             <p className="mt-3 text-sm leading-relaxed">
               De tu P&G en Excel a decisiones financieras en minutos. La
               herramienta para fractional CFOs y SMBs de LATAM.
@@ -81,7 +83,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} PnLPilot. Todos los derechos
+            &copy; {new Date().getFullYear()} LedgerPilot. Todos los derechos
             reservados.
           </p>
           <div className="flex items-center gap-6">

@@ -19,14 +19,14 @@ const faqs = [
       "Cero implementación. Subes tu primer archivo y en menos de 10 minutos tienes tu dashboard listo. No hay integraciones complejas ni periodos de setup.",
   },
   {
-    question: "¿Para quién es PnLPilot?",
+    question: "¿Para quién es LedgerPilot?",
     answer:
       "Para fractional CFOs, boutiques de advisory y founders/COOs de SMBs que necesitan análisis financiero rápido sobre su P&G sin invertir en herramientas enterprise. No es para pre-seed sin revenue, enterprise con equipo FP&A propio, ni contabilidad de compliance.",
   },
   {
     question: "¿Puedo probar antes de comprar?",
     answer:
-      "Sí. Ofrecemos una demo personalizada donde puedes ver la herramienta en acción con datos de ejemplo. Agenda tu demo y evaluamos juntos si PnLPilot es la solución correcta para ti.",
+      "Sí. Ofrecemos una demo personalizada donde puedes ver la herramienta en acción con datos de ejemplo. Agenda tu demo y evaluamos juntos si LedgerPilot es la solución correcta para ti.",
   },
   {
     question: "¿El commentary ejecutivo es confiable?",

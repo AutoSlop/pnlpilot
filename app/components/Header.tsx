@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { LogoFull } from "./Logo";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,8 +18,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-border">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#" className="text-xl font-bold text-primary">
-            PnLPilot
+          <a href="#">
+            <LogoFull variant="dark" />
           </a>
 
           {/* Desktop nav */}

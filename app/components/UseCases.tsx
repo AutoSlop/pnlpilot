@@ -4,7 +4,7 @@ export default function UseCases() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-            ¿Para quién es PnLPilot?
+            ¿Para quién es LedgerPilot?
           </h2>
           <p className="mt-4 text-lg text-muted">
             Diseñado para profesionales que necesitan análisis financiero rápido

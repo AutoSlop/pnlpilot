@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PnLPilot — De tu P&G en Excel a decisiones financieras en minutos",
+  title: "LedgerPilot — De tu P&G en Excel a decisiones financieras en minutos",
   description:
     "Sube tu estado de resultados y obtén dashboards, escenarios de sensibilidad y commentary ejecutivo tipo CFO en menos de 10 minutos. Para fractional CFOs y SMBs de LATAM.",
 };

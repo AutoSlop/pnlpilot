@@ -25,7 +25,7 @@ export default function DemoForm() {
               Sube tu P&G. Valida solo lo que importa. Obtén tu primer dashboard en minutos.
             </h2>
             <p className="mt-4 text-lg text-white/80 leading-relaxed">
-              Te mostramos cómo PnLPilot transforma tu estado de resultados en
+              Te mostramos cómo LedgerPilot transforma tu estado de resultados en
               análisis financiero accionable. Sin compromiso.
             </p>
             <ul className="mt-8 space-y-4">
