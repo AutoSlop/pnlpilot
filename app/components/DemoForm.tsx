@@ -22,17 +22,17 @@ export default function DemoForm() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Agenda tu demo personalizada
+              Sube tu P&G. Valida solo lo que importa. Obtén tu primer dashboard en minutos.
             </h2>
             <p className="mt-4 text-lg text-white/80 leading-relaxed">
-              Te mostramos cómo PnLPilot puede transformar tu flujo de trabajo
-              financiero en menos de 30 minutos. Sin compromiso.
+              Te mostramos cómo PnLPilot transforma tu estado de resultados en
+              análisis financiero accionable. Sin compromiso.
             </p>
             <ul className="mt-8 space-y-4">
               {[
                 "Demo en vivo con datos de ejemplo o tuyos",
                 "Resolvemos tus dudas en tiempo real",
-                "Te ayudamos a evaluar el plan ideal",
+                "From P&L to decisions in 5 minutes",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-white/90">
                   <svg
@@ -162,7 +162,7 @@ export default function DemoForm() {
                     <option value="fractional-cfo">Fractional CFO</option>
                     <option value="consultor">Consultor financiero</option>
                     <option value="cfo">CFO / Director de finanzas</option>
-                    <option value="founder">Founder / CEO</option>
+                    <option value="founder">Founder / CEO / COO</option>
                     <option value="otro">Otro</option>
                   </select>
                 </div>

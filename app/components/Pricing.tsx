@@ -9,7 +9,7 @@ export default function Pricing() {
         "Carga de P&G en Excel/CSV",
         "Dashboard automático con KPIs",
         "Escenarios de sensibilidad",
-        "CFO commentary con IA",
+        "CFO commentary ejecutivo",
         "Exportación a PDF",
         "Soporte por email",
       ],
@@ -23,10 +23,8 @@ export default function Pricing() {
       features: [
         "Hasta 10 empresas",
         "Todo lo de Solo, más:",
-        "Comparativos entre empresas",
         "Exportación a Notion",
         "Reportes white-label",
-        "Templates personalizados",
         "Soporte prioritario",
       ],
       cta: "Solicitar demo",
@@ -40,8 +38,7 @@ export default function Pricing() {
         "Hasta 30 empresas",
         "Todo lo de Advisor, más:",
         "Usuarios ilimitados del equipo",
-        "API access",
-        "SSO / SAML",
+        "White-label avanzado",
         "Onboarding dedicado",
         "SLA garantizado",
       ],
@@ -95,6 +92,14 @@ export default function Pricing() {
                 </span>
                 <span className="text-muted">/mes</span>
               </div>
+
+              {plan.popular && (
+                <div className="mb-4 bg-secondary/10 rounded-lg px-4 py-2.5">
+                  <p className="text-xs font-semibold text-secondary">
+                    Precio fundador: $149/mes por 6 meses para los primeros clientes
+                  </p>
+                </div>
+              )}
 
               <a
                 href="#demo"

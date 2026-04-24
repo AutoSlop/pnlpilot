@@ -6,32 +6,37 @@ const faqs = [
   {
     question: "¿Mis datos financieros están seguros?",
     answer:
-      "Absolutamente. Usamos encriptación AES-256 en tránsito y en reposo. Tus datos nunca se comparten con terceros ni se usan para entrenar modelos de IA. Cumplimos con estándares SOC 2 y GDPR.",
+      "Usamos encriptación en tránsito y en reposo desde el día uno. Tus datos nunca se comparten con terceros ni se usan para entrenar modelos. Estamos trabajando en certificaciones formales de seguridad.",
   },
   {
     question: "¿Qué formatos de archivo soportan?",
     answer:
-      "Aceptamos archivos Excel (.xlsx, .xls) y CSV. Nuestro parser con IA se adapta a diferentes estructuras de estados de resultados, así que no necesitas reformatear tu archivo.",
+      "Aceptamos archivos Excel (.xlsx, .xls) y CSV. Nuestro parser se adapta a diferentes estructuras de estados de resultados, así que no necesitas reformatear tu archivo.",
   },
   {
     question: "¿Cuánto tarda la implementación?",
     answer:
-      "Cero implementación. Creas tu cuenta, subes tu primer archivo y en menos de 10 minutos tienes tu dashboard listo. No hay integraciones complejas ni periodos de setup.",
+      "Cero implementación. Subes tu primer archivo y en menos de 10 minutos tienes tu dashboard listo. No hay integraciones complejas ni periodos de setup.",
   },
   {
     question: "¿Para quién es PnLPilot?",
     answer:
-      "PnLPilot está diseñado para fractional CFOs, consultores financieros independientes, firmas de advisory y SMBs en LATAM que necesitan análisis financiero rápido y profesional sin invertir en herramientas enterprise costosas.",
+      "Para fractional CFOs, boutiques de advisory y founders/COOs de SMBs que necesitan análisis financiero rápido sobre su P&G sin invertir en herramientas enterprise. No es para pre-seed sin revenue, enterprise con equipo FP&A propio, ni contabilidad de compliance.",
   },
   {
     question: "¿Puedo probar antes de comprar?",
     answer:
-      "Sí. Ofrecemos una demo personalizada donde puedes ver la herramienta en acción con datos reales (o de ejemplo). Agenda tu demo y evaluamos juntos si PnLPilot es la solución correcta para ti.",
+      "Sí. Ofrecemos una demo personalizada donde puedes ver la herramienta en acción con datos de ejemplo. Agenda tu demo y evaluamos juntos si PnLPilot es la solución correcta para ti.",
   },
   {
-    question: "¿El commentary de IA es confiable?",
+    question: "¿El commentary ejecutivo es confiable?",
     answer:
-      "El commentary generado por IA es un punto de partida profesional basado en las variaciones reales de tu P&G. Siempre puedes editarlo antes de exportar. Está diseñado para ahorrar tiempo, no para reemplazar tu criterio.",
+      "El commentary se genera a partir de las variaciones reales de tu P&G. Es un punto de partida profesional que siempre puedes editar antes de exportar. Está diseñado para ahorrar tiempo, no para reemplazar tu criterio.",
+  },
+  {
+    question: "¿Se integra con QuickBooks, Xero u otras plataformas?",
+    answer:
+      "Actualmente trabajamos con archivos Excel y CSV que exportas de tu sistema contable. Integraciones directas con plataformas contables están en nuestro roadmap futuro.",
   },
 ];
 
